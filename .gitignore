@@ -2,6 +2,9 @@
 node_modules
 /dist
 
+# my help file
+gitinit.cmd
+
 
 # local env files
 .env.local

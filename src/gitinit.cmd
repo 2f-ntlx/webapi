@@ -1,3 +1,6 @@
+git config --global user.email "anmail@ukr.net"
+git config --global user.name "ntlx"
+
 echo "# webapi" >> README.md
 git init
 git add *
