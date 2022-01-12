@@ -1,19 +1,15 @@
 <template>
   <div>
-    <span> Detect {{ apiName }}</span>
+    <span> {{ apiName }} is {{ apiCheck }} </span>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Api",
+  name: "ApiItem",
   props: {
     apiName: String,
-  },
-  data() {
-    return {
-      mess: "hello",
-    };
+    apiCheck: String,
   },
 };
 </script>

@@ -8,3 +8,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:2f-ntlx/webapi.git
 git push -u origin main
+
+
+git remote add origin https://github.com/2f-ntlx/webapi.git
